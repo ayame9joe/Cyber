@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 [System.Serializable]
 public class Boundary
@@ -23,11 +24,13 @@ public class PlayerController : MonoBehaviour
 	private float nextFire;
 	Vector3 shootDir;
 
+	public static float health = 100;
 
+	public Text txtHealth;
 	
 	void Update ()
 	{
-
+		txtHealth.text = health.ToString ();
 
 		if (Input.GetButton("Fire1") && Time.time > nextFire)
 		{
@@ -63,7 +66,7 @@ public class PlayerController : MonoBehaviour
 	{
 
 
-
+		health -= 0.1f;
 		rigidbody2D.position = new Vector3 
 			(
 				Mathf.Clamp (rigidbody2D.position.x, boundary.xMin, boundary.xMax), 
