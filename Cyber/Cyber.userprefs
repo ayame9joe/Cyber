@@ -1,11 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Controller\PlayerController.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\..\Coconut\Documents\FCB\Assets\Script\Manager\EnemyManager.js">
     <Files>
-      <File FileName="Assets\Script\Controller\PlayerController.cs" Line="26" Column="2" />
-      <File FileName="Assets\Script\Controller\Shot.cs" Line="7" Column="17" />
-      <File FileName="Assets\Script\Controller\Food.cs" Line="30" Column="5" />
-      <File FileName="Assets\Script\Controller\GameManager.cs" Line="33" Column="24" />
+      <File FileName="..\..\..\..\..\Coconut\Documents\FCB\Assets\Script\Manager\EnemyManager.js" Line="193" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
